@@ -33,8 +33,8 @@ body {
     width: 350px;
 }
 
-.progress-container ::before {
-    content: " ";
+.progress-container::before {
+    content: "";
     background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
